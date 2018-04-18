@@ -1,0 +1,8 @@
+<div class="container">
+<p>{{goal.description}}</p>
+<button (click)= 'goalComplete(true)'>Complete</button>
+<p>This Goal will be completed in {{goal.completeDate|dateCount}} days</p>
+<!-- <button (click)= 'goalDelete(true)'>Delete a Goal</button> -->
+<button (click) = 'goalDelete(true)'> Delete Goal </button>
+<!-- <p>This goal will be completed in {{goal.completeDate|dateCount}} days</p> -->
+</div>
